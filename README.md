@@ -47,7 +47,7 @@ fim do enquanto
 abraOsOlhos
 espreguica 
 boceja
-coçaORosto
+cocaORosto
 levanta
 
 diga "Hoje é ${dia} e acordei ás ${hora} horas."
