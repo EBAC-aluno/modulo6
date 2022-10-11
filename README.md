@@ -50,6 +50,6 @@ boceja
 cocaORosto
 levanta
 
-diga "Hoje é ${dia} e acordei ás ${hora} horas."
+diga "Hoje é ${dia} e acordei ás ${horarioDeAcordar} horas."
 
 fim_do_algoritimo
