@@ -30,6 +30,7 @@ Sendo assim, a abordagem de Orientação a Objetos é mais adequada, pois as pe�
 inicio_do_algoritimo_acordar
 
 dia = pegaODiaNoCalendario
+horarioDeAcordar = 0
 
 se dia == domingo 
   horarioDeAcordar = 10
@@ -43,10 +44,10 @@ enquanto hora < horarioDeAcordar
   hora = hora + 1
 fim do enquanto
 
-abra os olhos
-espreguiça 
+abraOsOlhos
+espreguica 
 boceja
-coça o rosto
+coçaORosto
 levanta
 
 diga "Hoje é ${dia} e acordei ás ${hora} horas."
