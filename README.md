@@ -24,3 +24,31 @@ Considere um programa que constrói veículos personalizados. Então, na etapa d
 Neste contexto e consideranto o possível uso do estilo procedural, nos deparamos com alguns problemas. Um deles é que um carro é composto por inúmeras peças com suas funcionalidades, fazendo com que fique difícil gerenciar tudo isso sem um encapsulamento adquado. O outro problema, é que isso gera um acoplamento desnecessário, pois a cor com que o carro será pintado, independe da sua marca e modelo. 
 
 Sendo assim, a abodagem de Orientação a Objetos é mais adequada, pois as peças, assim como o carro, podem ser melhor representados por classes com uma devida visibilidade de seus métodos atributos. Além do mais, podemos utilizar uma interface para atribuir a responsabilidade de contrução a um módulo e utilizar o carro como objeto para aplicação de uma pintura personalizada. Veja [aqui](https://github.com/EBAC-aluno/modulo6/tree/main/Java) um programa simples escrito em Java que exemplifica este cenário.
+
+# Parte 2:
+```
+inicio_do_algoritimo_acordar
+
+dia = pegaODiaNoCalendario
+
+se dia == domingo 
+  horarioDeAcordar = 10
+  senao
+  horarioDeAcordar = 6
+fim do se
+
+hora = 0
+enquanto hora < horarioDeAcordar
+  dorme
+  hora = hora + 1
+fim do enquanto
+
+abra os olhos
+espreguiça 
+boceja
+coça o rosto
+levanta
+
+diga "Hoje é ${dia} e acordei ás ${hora} horas."
+
+fim_do_algoritimo
